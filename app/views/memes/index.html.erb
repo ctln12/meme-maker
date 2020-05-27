@@ -1,5 +1,7 @@
 <h1>Meme Maker</h1>
 
-<%= @memes.each do |meme| %>
-  <%= image_tag meme["url"], height: "100" %>
-<% end %>
+<div id="memes-list">
+  <% @memes.each do |meme| %>
+    <%= image_tag meme['url'], alt: "meme", class: "meme" %>
+  <% end %>
+</div>

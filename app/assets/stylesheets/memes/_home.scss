@@ -1,0 +1,12 @@
+#memes-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meme {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}

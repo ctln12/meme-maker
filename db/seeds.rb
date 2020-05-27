@@ -2,6 +2,7 @@ require 'json'
 require 'open-uri'
 
 puts 'Destroying memes...'
+Meme.destroy_all
 
 puts 'Getting memes...'
 url = 'https://api.imgflip.com/get_memes'
